@@ -1,0 +1,599 @@
+* {
+    font-family: sans-serif;
+    color: darkslategrey;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.dashboard {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.menu {
+    width: 15%;
+    height: 100%;
+    border-right: 1px solid rgba(172, 170, 170, 0.363);
+    box-shadow: 3px 0 3px gainsboro;
+    position:fixed;
+    background-color: white;
+}
+
+.h-menu {
+    margin-left: 30px;
+}
+
+.li-dashboard {
+    color: white;
+    background-color:rgb(207, 7, 107);
+}
+
+.p-dashboard {
+    color: white;
+}
+
+.main {
+    width: 85vw;
+    padding-left: 18vw;
+    background-color: ghostwhite;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    margin: 10px 15px;
+    padding-left: 15px;
+}
+
+.img-menu {
+    display: block;
+    width:25px;
+}
+
+.p-menu {
+    margin-left: 15px;
+}
+
+hr {
+    border: none;
+    color: rgba(192, 188, 188, 0.658);
+    background-color: rgba(192, 188, 188, 0.658);
+    height: 1px;
+}
+
+.blocks {
+    display: flex;
+    margin-top: 40px;
+}
+
+.block1, .block2 {
+    display: flex;
+    width: 46%;
+}
+
+.block2 {
+    margin-left: -16px;
+}
+
+.block {
+    width: 46%;
+    border: 1px solid rgba(220, 220, 220, 0.808);
+    box-shadow: 3px 3px 3px gainsboro;
+    background-color: white;
+}
+
+.bl1 {
+    margin-left: 20px;
+}
+
+.block-footer {
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.img-block {
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+}
+
+.up-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.p-block {
+    padding-right: 15px;
+}
+
+.p-small {
+    margin-bottom: 5px;
+    text-align: right;
+}
+
+.p-large {
+    font-size: 22px;
+    margin-top: 0;
+    text-align: right;
+}
+
+.hr {
+    width: 85%;
+    margin: auto;
+}
+
+.data, .shop, .tag, .paperplane {
+    border: 1px solid rgba(220, 220, 220, 0.808);
+    width: 60px;
+    height: 60px;
+    position: relative;
+    bottom: 15px;
+    left: 15px;
+}
+
+.img-up-block {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.data {
+    background-color: rgb(4, 179, 4);
+}
+
+.shop {
+    background-color: rgb(245, 182, 7);
+}
+
+.tag {
+    background-color: rgb(21, 62, 175);
+}
+
+.paperplane {
+    background-color: rgb(207, 7, 107);
+}
+
+.p-smaller {
+    font-size: 14px;
+}
+
+.boxes {
+    display: flex;
+}
+
+.graphics {
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 17px;
+}
+
+.box {
+    width: 29%;
+    margin-top: 50px;
+    border: 1px solid rgba(220, 220, 220, 0.808);
+    box-shadow: 3px 3px 3px gainsboro;
+    background-color: white; 
+}
+
+.box1 {
+    margin-left: 19px;
+}
+
+.graphics1, .graphics2, .graphics3 {
+    border: 1px solid rgba(220, 220, 220, 0.808);
+    width: 90%;
+    height: 55%;
+    position: relative;
+    bottom: 15px;
+    left: 15px;
+}
+
+.graphics1 {
+    background-color: rgb(4, 179, 4);
+}
+
+.graphics2 {
+    background-color: rgb(245, 182, 7);
+}
+
+.graphics3 {
+    background-color: rgb(21, 62, 175);
+}
+
+.footer-box {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+
+.p-box-large {
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+
+.p-box-small {
+    font-size: 16px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.containers {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.tascs {
+    display: flex;
+    border: 1px solid rgba(220, 220, 220, 0.808);
+    width: 90%;
+    height: 15%;
+    position: relative;
+    bottom: 15px;
+    left: 15px;
+    background-color: rgb(245, 182, 7);
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.tasc1 {
+    display: flex;
+    background-color: rgb(245, 205, 94);
+    margin-left: 15px;
+    padding-right: 20px;
+}
+
+.img-tascs {
+    width: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.p-tascs {
+    color: white;
+}
+
+.bag {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 25px;
+    align-items: center;
+}
+
+.img-bag {
+    width: 25px;
+    height: 25px;
+}
+
+.img1 {
+    margin-right: 20px;
+}
+
+.container {
+    width: 44%;
+    margin-top: 50px;
+    border: 1px solid rgba(220, 220, 220, 0.808);
+    box-shadow: 3px 3px 3px gainsboro;
+    background-color: white;
+}
+
+.cont2 {
+    margin-left: 25px;
+}
+
+.info {
+    display: flex;
+    font-weight: 600;
+    font-size: 14px;
+    color: darkslategrey;
+}
+
+.p-footer {
+    margin-left: 15px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 110px;
+}
+
+.window {
+    width: 15px;
+    height: 15px;
+    border: 1px solid rgba(220, 220, 220, 0.808);
+    background-color: whitesmoke;
+    margin-left: 12px;
+}
+
+.symbol {
+    margin: 0;
+    margin-top: -4px;
+    margin-left: 1px;
+    font-size: 16px;
+}
+
+.hr-bags {
+    width: 95%;
+    margin: auto;
+}
+
+.p-bags {
+    font-size: 14px;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.head {
+    width: 90%;
+    height: 15%;
+    border: 1px solid rgba(220, 220, 220, 0.808);
+    position: relative;
+    bottom: 15px;
+    left: 15px;
+    background-color: rgb(21, 62, 175);
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.p-emp, .p-newemp {
+    color: white;
+}
+
+.p-emp {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.p-newemp {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+th {
+    color: rgb(117, 148, 241);
+    font-weight: 500;
+    text-align: left;
+    padding: 0 40px 15px 20px;
+    border-bottom: 2px solid rgba(220, 220, 220, 0.808);
+}
+
+table {
+    margin-left: 20px;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+td {
+    text-align: left;
+    padding: 10px 40px 10px 20px;
+    border-bottom: 2px solid rgba(220, 220, 220, 0.808);
+}
+
+.last {
+    border: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .containers {
+        display: block;
+    }
+
+    .container {
+        width: 92%;
+        height: 270px;
+    }
+
+    .cont2 {
+        margin-left: 0;
+    }
+
+    .menu {
+        width: 20%;
+    }
+
+    .main {
+        width: 80vw;
+        padding-left: 24vw;
+    }
+
+    footer {
+        margin-right: 60px;
+    }
+
+    .blocks {
+        display: block;
+    }
+
+    .block1, .block2 {
+        width: 97%;
+    }
+
+    .block1 {
+        margin-left: 4px;
+    }
+
+    .block2 {
+        margin-top: 40px;
+        margin-left: -18px;
+    }
+
+    .hr {
+        width: 90%;
+    }
+
+    .graphics1, .graphics2, .graphics3 {
+        width: 85%;
+        height: 50%;
+    }
+
+    .graphics {
+        width: 90%;
+        margin-top: 17px;
+        margin-left: 10px;
+    }
+
+    .p-box-large {
+        margin-top: 0;
+    }
+
+    .box {
+        height: 280px;
+    } 
+
+    .tascs {
+        width: 93%;
+        margin-left: 2px;
+    }
+
+    .p-bags {
+        width: 80%;
+        padding-left: 10px;
+    }
+
+    .head {
+        width: 93%;
+        height: 20%;
+        margin-left: 2px;
+    }
+
+    .cont2 {
+        height: 310px;
+    }
+
+    table {
+        margin-left: 30px;
+        width: 93%;
+    }
+
+    th, td {
+        padding-left: 50px;
+    }
+
+    .first {
+        padding-left: 10px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .menu {
+        display: none;
+    }
+
+    .main {
+        padding-left: 5vw;
+        width: 100%;
+    }
+
+    .h2-dashboard::before {
+        content: url(img/menu.png);
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .h2-dashboard {
+        display: flex;
+        align-items: center;
+    }
+    
+}
+
+@media screen and (max-width: 650px) {
+    .boxes {
+        display: block;
+    }
+
+    .box {
+        width: 94%;
+        height: 100%;
+    }
+
+    .block2 {
+        padding-left: 3px;
+    }
+
+    .box1 {
+        margin-left: 0;
+    }
+    
+    .graphics1, .graphics2, .graphics3 {
+        width: 93.5%;
+        height: 70%;
+    }
+
+    .graphics {
+        width: 80%;
+        margin: auto;
+        margin-left: 45px;
+    }
+
+    .container {
+        width: 94%;
+        height: 100%;
+    }
+
+    .tascs, .head {
+        width: 90%;
+    }
+
+    .hr-footer {
+        position: absolute;
+        bottom: 50px;
+        left: 0;
+        width: 100%;
+    }
+
+    footer {
+        margin-right: 30px;
+    }
+
+    th, td {
+        padding-left: 20px;
+        padding: 10px;
+    }
+
+    table {
+        margin-top: 0;
+        margin-left: 25px;
+        width: 90%;
+    }
+
+    .last {
+        padding-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .graphics1, .graphics2, .graphics3, .tascs, .head {
+        margin-left: -2px;
+    }
+
+    .block1, .block2 {
+        display: block;
+    }
+
+    .block2 {
+        margin-left: 2px;
+    }
+
+    .block {
+        width: 96%;
+        margin-left: -3px;
+    }
+
+    .bl1 {
+        margin-top: 40px;
+    }
+}
